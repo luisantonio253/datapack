@@ -1,0 +1,27 @@
+{
+  "display": {
+    "title": "Joia da Imortalidade",
+    "description": "Obteve a Joia da Imortalidade lendária",
+    "icon": {
+      "item": "minecraft:diamond",
+      "nbt": "{JoiaLendaria:\"immortal\"}"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "joias_lendarias:root",
+  "criteria": {
+    "obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:diamond"],
+            "nbt": "{JoiaLendaria:\"immortal\"}"
+          }
+        ]
+      }
+    }
+  }
+}
