@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"text\":\"💎 Joia da Imortalidade\",\"color\":\"gold\",\"bold\":true}",
+                "minecraft:lore": [
+                  "{\"text\":\"Joia Lendária de Proteção\",\"color\":\"gold\"}",
+                  "{\"text\":\"• Ressurreição em morte\",\"color\":\"gold\"}",
+                  "{\"text\":\"• 10 cargas de proteção\",\"color\":\"gold\"}",
+                  "{\"text\":\"• Regeneração contínua\",\"color\":\"gold\"}",
+                  "{\"text\":\"\",\"color\":\"gray\"}",
+                  "{\"text\":\"Cargas restantes: 10/10\",\"color\":\"yellow\"}"
+                ],
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:custom_data": "{JoiaLendaria:\"immortal\",charges:10}"
+              }
+            }
+          ],
+          "weight": 2
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.02
+        }
+      ]
+    }
+  ]
+}
