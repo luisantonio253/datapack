@@ -1,0 +1,15 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:lore": [
+        {"text": "Joia Lendária de Proteção","color": "gold"},
+        {"text": "• Ressurreição em morte","color": "gold"},
+        {"text": "• 10 cargas de proteção","color": "gold"},
+        {"text": "• Regeneração contínua","color": "gold"},
+        {"text": "","color": "gray"},
+        {"text": "Cargas restantes: 7/10","color": "yellow"}
+      ]
+    }
+  }
+]
