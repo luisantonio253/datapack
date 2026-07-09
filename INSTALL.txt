@@ -1,0 +1,23 @@
+# ===================================
+# INSTALL DOCUMENTATION
+# ===================================
+# Instalação do Joias Lendárias
+
+## Passo 1: Localizar Pasta de Datapacks
+- Windows: %appdata%\.minecraft\saves\[MUNDO]\datapacks\
+- Mac: ~/Library/Application Support/minecraft/saves/[MUNDO]/datapacks/
+- Linux: ~/.minecraft/saves/[MUNDO]/datapacks/
+
+## Passo 2: Extrair Arquivo
+Coloque a pasta 'joias_lendarias' dentro da pasta datapacks
+
+## Passo 3: Carregar Datapack
+1. Abra o mundo em Minecraft
+2. Digite: /reload
+3. Confirme: [+] Loaded datapack joias_lendarias
+
+## Passo 4: Inicializar
+/function joias_lendarias:load
+
+## Sucesso!
+O datapack foi instalado com sucesso. Use os comandos para obter as joias.
