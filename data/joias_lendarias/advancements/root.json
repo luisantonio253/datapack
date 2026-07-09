@@ -1,0 +1,18 @@
+{
+  "display": {
+    "title": "Joias Lendárias",
+    "description": "Descubra o poder das joias lendárias",
+    "icon": {
+      "item": "minecraft:diamond"
+    },
+    "background": "minecraft:textures/block/deepslate.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
