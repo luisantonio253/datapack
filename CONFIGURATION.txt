@@ -1,0 +1,26 @@
+# CONFIGURAÇÕES DO DATAPACK
+
+## Velocidade de Ataque PVP
+Arquivo: data/joias_lendarias/functions/pvp/effects.mcfunction
+Linha: attribute @s minecraft:attack_speed base set 1000
+(Altere o valor 1000 para ajustar velocidade)
+
+## Cooldown do Sonic Boom
+Arquivo: data/joias_lendarias/functions/warden/trigger_sonic_boom.mcfunction
+Linha: scoreboard players set @s warden_cooldown 100
+(100 ticks = 5 segundos. Altere conforme necessário)
+
+## Dano do Sonic Boom
+Arquivo: data/joias_lendarias/functions/warden/sonic_boom_hit.mcfunction
+Linha: damage @s 15 sonic_boom
+(15 = 7.5 corações. Altere para mais/menos dano)
+
+## Chance de Loot das Joias
+Arquivo: data/joias_lendarias/loot_tables/chests/...
+Campo: "chance": 0.05
+(0.05 = 5%. Altere entre 0.00 e 1.00)
+
+## Cargas da Joia da Imortalidade
+Arquivo: data/joias_lendarias/functions/admin/give_immortal.mcfunction
+Linha: scoreboard players set @s immortal_charges 10
+(Altere 10 para o número de cargas desejado)
