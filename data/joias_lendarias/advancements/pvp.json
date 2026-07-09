@@ -1,0 +1,27 @@
+{
+  "display": {
+    "title": "Joia do PVP",
+    "description": "Obteve a Joia do PVP legendária",
+    "icon": {
+      "item": "minecraft:diamond",
+      "nbt": "{JoiaLendaria:\"pvp\"}"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "joias_lendarias:root",
+  "criteria": {
+    "obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:diamond"],
+            "nbt": "{JoiaLendaria:\"pvp\"}"
+          }
+        ]
+      }
+    }
+  }
+}
