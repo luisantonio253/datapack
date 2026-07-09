@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"text\":\"💎 Joia do PVP\",\"color\":\"red\",\"bold\":true}",
+                "minecraft:lore": [
+                  "{\"text\":\"Joia Lendária de Combate\",\"color\":\"red\"}",
+                  "{\"text\":\"• Ataque sem cooldown\",\"color\":\"red\"}",
+                  "{\"text\":\"• Fome infinita\",\"color\":\"red\"}",
+                  "{\"text\":\"• Dashes ilimitados\",\"color\":\"red\"}"
+                ],
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:custom_data": "{JoiaLendaria:\"pvp\"}"
+              }
+            }
+          ],
+          "weight": 5
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.03
+        }
+      ]
+    }
+  ]
+}
