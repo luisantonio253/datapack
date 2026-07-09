@@ -1,0 +1,27 @@
+{
+  "display": {
+    "title": "Joia do Warden",
+    "description": "Obteve a Joia do Warden lendária",
+    "icon": {
+      "item": "minecraft:diamond",
+      "nbt": "{JoiaLendaria:\"warden\"}"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "joias_lendarias:root",
+  "criteria": {
+    "obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:diamond"],
+            "nbt": "{JoiaLendaria:\"warden\"}"
+          }
+        ]
+      }
+    }
+  }
+}
